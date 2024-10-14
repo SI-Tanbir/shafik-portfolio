@@ -1,0 +1,33 @@
+
+/* navigation var style */
+nav {
+    display:flex;
+   
+}
+/* common shared styles */
+body{
+   
+  font-family: "Open Sans", sans-serif;
+
+}
+.nav-heading{
+    font-optical-sizing: auto;
+  font-weight: 800;
+ 
+}
+.nav-heading>span{
+   color:rgb(112, 5, 234) 
+}
+nav >ul{
+    display: flex;
+    
+}
+nav >ul >li{
+    margin-right: 15px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(99, 98, 98)
+}
+
