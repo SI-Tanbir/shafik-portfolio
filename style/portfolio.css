@@ -12,18 +12,21 @@ nav {
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900 */
 
-.playfair-display-<uniquifier> {
+/* .playfair-display-<uniquifier> {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
-body{
+} */
+ body{
+    margin:0
+ }
+/* body{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-}
+} */
 .nav-heading{
     font-optical-sizing: auto;
   font-weight: 800;
@@ -70,6 +73,10 @@ nav a{
 /* adding bg color  */
 .header{
     background-color: rgba(255, 68, 0, 0.057);
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:60%;
 }
 .banner{
     display: flex;
@@ -82,10 +89,26 @@ nav a{
     margin-left: 100px;
 
 }
-.banner-title , .banner-greting{
-    font-size: 50px;
+.banner-greting{
+    font-size: 40px;
+    margin-bottom: -30px;
 }
+.banner-title{
+    font-size: 50px;
+    margin-bottom: 0px;
+    /* margin-bottom: 0; */
 /*adding margin to my image to look cool*/
+}
 .shafik-image{
     margin-right: 5%;
 }
+
+.about-section{
+    padding: 150px;
+    background-color: rgba(238, 99, 30, 0.108);
+    text-align: center;
+    margin:130px 0px
+}
+
+
+
