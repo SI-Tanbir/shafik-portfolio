@@ -7,10 +7,22 @@ nav {
    
 }
 /* common shared styles */
-body{
-   
-  font-family: "Open Sans", sans-serif;
 
+   
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900 */
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 .nav-heading{
     font-optical-sizing: auto;
@@ -18,8 +30,9 @@ body{
   font-size: 40px;
  
 }
-.nav-heading>span{
-   color:orangered
+.nav-heading span{
+   /* color: */
+   /* rgb(244, 86, 0); */
 }
 nav >ul{
     display: flex;
@@ -65,7 +78,7 @@ nav a{
     justify-content: space-between;
 }
 /* allain the written content */
-.banner-title , .banner-greting,.btn-primary,.nav-heading{
+.banner-title , .banner-greting,.btn-primary,.nav-heading,.banner-writing{
     margin-left: 100px;
 
 }
