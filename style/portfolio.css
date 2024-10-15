@@ -161,4 +161,9 @@ main{
 }
 .resume-heading{
     text-align: center;
+    margin-top:40px;
+    font-size: 30px;
+}
+.resume-coll{
+    margin:10px
 }
