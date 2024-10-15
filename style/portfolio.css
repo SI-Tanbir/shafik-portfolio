@@ -126,3 +126,27 @@ main{
     margin:0;
 }
 
+/*starting of what i do style*/
+.what-i-do-container{
+    text-align: center;
+}
+.icon-main-container{
+     display: flex;
+     text-align: left;
+     
+
+
+     
+} 
+
+
+.icon-container{
+    margin:10px;
+    background-color:rgba(255, 68, 0, 0.057);
+    padding: 20px;
+}
+
+.what-i-do-paragraph{
+    margin:0 10%;
+    margin-bottom: 2%;
+}
