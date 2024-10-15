@@ -15,10 +15,11 @@ body{
 .nav-heading{
     font-optical-sizing: auto;
   font-weight: 800;
+  font-size: 40px;
  
 }
 .nav-heading>span{
-   color:rgb(112, 5, 234) 
+   color:orangered
 }
 nav >ul{
     display: flex;
@@ -41,7 +42,7 @@ nav a{
     font-size: 20px;
     font-weight: 700;
 }
-.btn-primary{
+.btn-primary,.btn-primary1{
     padding:8px 15px;
     background-color: orangered;
     color:white;
@@ -52,4 +53,26 @@ nav a{
     background-color: blueviolet;
     text-decoration: underline;
 
+}
+/* adding bg color  */
+.header{
+    background-color: rgba(255, 68, 0, 0.057);
+}
+.banner{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+/* allain the written content */
+.banner-title , .banner-greting,.btn-primary,.nav-heading{
+    margin-left: 100px;
+
+}
+.banner-title , .banner-greting{
+    font-size: 50px;
+}
+/*adding margin to my image to look cool*/
+.shafik-image{
+    margin-right: 5%;
 }
