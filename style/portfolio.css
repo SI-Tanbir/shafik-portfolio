@@ -23,7 +23,7 @@ nav >ul{
     
 }
 nav >ul >li{
-    margin-right: 15px;
+    margin-right: 50px;
     list-style: none;
 }
 nav a{
@@ -31,3 +31,19 @@ nav a{
     color:rgb(99, 98, 98)
 }
 
+/* primary buttion style */
+.btn-primary>a{
+    color:white
+}
+.btn-primary{
+    padding:8px 15px;
+    background-color: orangered;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+.btn-primary:hover,.btn-primary>a:hover{
+    background-color: blueviolet;
+    text-decoration: underline;
+
+}
