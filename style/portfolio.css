@@ -167,3 +167,45 @@ main{
 .resume-coll{
     margin:10px
 }
+
+#downloadcv{
+    /* text-decoration: none;
+     */
+     text-align: center;
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
+.connect-form{
+    display: flex;
+}
+.connect-form{
+    background-color: #FFF8F3;
+}
+.left-div{
+    /* margin-top: 50px; */
+    /* margin-left: 40px; */
+    text-align: left;
+    padding: 60px;
+    padding-left: 40px;
+}
+
+
+.right-div input{
+padding: 5px;
+padding-right: 50px;
+margin-bottom: 8px;
+}
+ #submitbtn{
+    padding:12px 20px;
+    background-color: orangered;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    /* margin-left: 200px; */
+    margin-top: 10px;
+    align-items: left;
+
+}
+..btnfix{
+
+}
