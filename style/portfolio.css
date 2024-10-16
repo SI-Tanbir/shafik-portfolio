@@ -180,6 +180,7 @@ main{
 }
 .connect-form{
     background-color: #FFF8F3;
+    gap:400px
 }
 .left-div{
     /* margin-top: 50px; */
@@ -189,11 +190,17 @@ main{
     padding-left: 40px;
 }
 
+.right-div{
+    margin-right: 10%;
+}
+.right-div input[type="email"] ,.right-div input[type="text"],.right-div textarea{
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 50px;
+    margin-bottom: 8px;
 
-.right-div input{
-padding: 5px;
-padding-right: 50px;
-margin-bottom: 8px;
 }
  #submitbtn{
     padding:12px 20px;
