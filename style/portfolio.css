@@ -4,6 +4,8 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    
+
    
 }
 /* common shared styles */
@@ -72,7 +74,7 @@ nav a{
 }
 /* adding bg color  */
 .header{
-    background-color: rgba(255, 68, 0, 0.057);
+    background-color: #ff44000f;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
