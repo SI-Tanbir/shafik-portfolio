@@ -1,29 +1,84 @@
-@media screen and (max-width:770px){
-   
-.nav-heading,nav{
-    display: none;
+
+
+
+/* responsive for small device */
+@media screen and (max-width:640px) 
+{
+
+    .connect-form{
+        flex-direction: column;
+        gap:0px
+        
+        
+    }
+    .right-div{
+        padding: 1rem;
+        
+        
+    }
+    .resume-contaner{
+        flex-direction: column;
+        
+    }
+    .icon-main-container{
+        flex-direction:column;
+    }
+    .about-section{
+        padding:2rem
+    }
+    nav{
+        display: none;
+    }
+    .banner div{
+
+
+
+        position: relative;
+        z-index: 5;
+    }
+    .info-container{
+        flex-direction: column;
+    }
+
+
+
+    .shafik-image{
+        width: 100vmin;
+        top:0.5rem;
+        position: absolute;
+        z-index: -1;
+    }
+    
 }
-.banner {
-    display: flex;
-    /* text-align: center; */
-    align-items: center;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-body {
-    margin: 0;
-    padding: 0;
-}
-header{
-    min-width: 100vw;
-    width:100%;
+
+/* mediam device */
+@media screen and (min-width:641px) and (max-width:1280px){
+
+    .connect-form{
+        flex-direction: column;
+        gap:0px 
+
+    }
+
+    .right-div{
+        padding: 1rem;
+    }
+        
+    .resume-contaner{
+        flex-direction: column;
+    }
+
+
+    .icon-main-container{
+        flex-direction:column;}
 
 }
-.shafik-image {
-    margin-right: 5%;
-    width: 100%;
-    height: 100%;
+
+
+
+.hide{
+    display:none;
 }
 
-}
+
+
